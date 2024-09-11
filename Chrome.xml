@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Chrome Suite">
+  <test name="Chrome Test">
+    <classes>
+      <class name="demowebshop.tricentis.com.tests.LoginTest"/>
+      <class name="demowebshop.tricentis.com.tests.SearchTest"/>
+      <class name="demowebshop.tricentis.com.tests.ProductsTest"/>
+      <class name="demowebshop.tricentis.com.tests.WishListTest"/>
+      <class name="demowebshop.tricentis.com.tests.ShoppingCartTest"/>
+      <class name="demowebshop.tricentis.com.tests.CheckOutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
